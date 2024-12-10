@@ -120,6 +120,7 @@ function getStringsLength(arr) {
  *   getAverage([ 2, 3, 3 ])  => 2,67
  */
 function getAverage(/* arr */) {
+  Array.fromAsync();
   throw new Error('Not implemented');
 }
 
